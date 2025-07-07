@@ -1,0 +1,25 @@
+.searchbar {
+  display: flex;
+  position: relative;
+  border: none;
+  width: 20%;
+  input {
+    width: 100%;
+    padding-left: 35px;
+    padding: 5px;
+    border-radius: 16px;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  img {
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  max-width: 100%;
+  gap: 0;
+  padding: 0;
+}
+
+.menu {
+  max-width: 190px;
+  background: #111;
+  overflow: auto;
+}
+
+.content {
+  width: 50%;
+  min-width: 0;
+  overflow: auto;
+  padding: 32px;
+  background: #111;
+  height: 100vh;
+  margin: 0 auto;
+}
